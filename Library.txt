@@ -1,0 +1,25 @@
+library(affy)
+library(limma)
+library(Biobase)
+library(GEOquery)
+library(affydata)
+gds2381 <- getGEO('GDS2381', destdir = ".") #get GDS file for “GEO DataSet”
+
+Meta(gds2381)$description
+
+Table(gds2381)[1:10, 1:8]
+
+write.exprs(eset, file="mydata.txt")
+
+eset<-GDS2eSet(gds2381, do.log2 = TRUE)
+
+featureNames(eset)[1:10]
+
+
+
+
+
+
+browseVignettes("Biobase")
+
+
