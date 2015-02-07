@@ -2,8 +2,8 @@ Package: ArrayFunctions
 Version: 1.0
 Date: 2015-02-06
 Title: My First Collection of Array Functions
-Authors@R: c(person(“Geoff”, "Developer", role = c("aut", "cre"),
-		     email = “geoffreystephens0@gmail.com”)
+Authors@R: c(person(???Geoff???, "Developer", role = c("aut", "cre"),
+		     email = ???geoffreystephens0@gmail.com???)
 Author: Geoffrey Stephens
 Maintainer: Geoffrey Stephens <geoffreystephens0@gmail.com>
 Depends: R (>= 1.8.0), nlme
@@ -12,3 +12,4 @@ Description: A helpful package for managing and analyzing microarray data.
 License: GPL (>= 2)
 URL: http://www.r-project.org, http://www.another.url
 BugReports: http://pkgname.bugtracker.url
+
